@@ -1,0 +1,113 @@
+= Requisitos del Sitio Web Corporativo de SchoolAR
+Autor: [Tu Nombre]
+:toc:
+:toc-title: Tabla de Contenidos
+:icons: font
+
+== 🎯 Objetivo General
+
+Desarrollar un sitio web estático, institucional y comercial, que represente profesionalmente a *SchoolAR*, plataforma de gestión escolar. El sitio debe comunicar su propuesta de valor, reforzar la identidad de marca, atraer posibles clientes y servir como soporte en la defensa del trabajo práctico.
+
+== ✅ Requisitos Funcionales
+
+1. *Página de Inicio (Home)*
+- Descripción clara de qué es SchoolAR.
+- Encabezado con logo y navegación visible.
+- Breve presentación de servicios principales.
+- Información de ubicación o cobertura.
+- Llamado a la acción visible (CTA).
+
+2. *Página “Sobre Nosotros” (About)*
+- Historia de la empresa.
+- Misión, visión y objetivos.
+- Presentación del equipo fundador o colaboradores (opcional).
+
+3. *Página de Servicios o Tienda Online*
+- Detalle de los módulos y funcionalidades: usuarios, cursos, tareas, asistencia, facturación, etc.
+- Cards con íconos o imágenes, títulos y descripciones.
+- Posible simulación de planes o tienda (opcional).
+
+4. *Página de Testimonios*
+- Opiniones reales (o simuladas) de usuarios.
+- Nombre, cargo, establecimiento, y valoración visual (opcional).
+
+5. *Página de Contacto*
+- Formulario: nombre, email, escuela, comentario.
+- Información de contacto (teléfono, email, redes).
+
+6. *Navegación Interna*
+- Menú accesible en todas las páginas.
+- Navegación secundaria en el footer (opcional).
+
+7. *Diseño Adaptable (Responsive)*
+- Compatible con pantallas pequeñas, medianas y grandes.
+- Interfaz usable en móviles, tablets y escritorio.
+
+8. *Modo Claro/Oscuro (Opcional)*
+- Toggle para alternar entre modos visuales.
+- Paleta respetada en ambos estilos.
+
+== 🚫 Requisitos No Funcionales
+
+1. *Paleta de Colores Institucional*
+- Principal: `#162C4A` (azul oscuro).
+- Secundario: `#FCA311` (amarillo cálido).
+- Fondo: blanco o gris claro.
+- Tipografía: moderna, sans-serif.
+
+2. *Diseño Profesional y Consistente*
+- Uso equilibrado de márgenes, paddings y jerarquía visual.
+- Contraste adecuado, botones visibles y legibles.
+
+3. *Accesibilidad Básica*
+- Uso de etiquetas semánticas (`header`, `main`, `footer`).
+- Textos alternativos (`alt`) en imágenes.
+- Formularios correctamente etiquetados.
+
+4. *Estructura Modular*
+- Separación clara por páginas.
+- Componentes reutilizables (navbar, footer, tarjetas, formularios, etc.).
+
+5. *Rendimiento Optimizado*
+- Carga rápida.
+- Imágenes comprimidas.
+- Código limpio y mantenible.
+
+6. *Preparado para Evolución*
+- Arquitectura lista para migrar a tecnologías dinámicas (Astro, React, etc.).
+- Código comentado y bien estructurado.
+
+== 📱 Requisitos Específicos de Responsividad
+
+1. *Mobile First*
+- El diseño debe priorizar primero la experiencia en pantallas pequeñas.
+
+2. *Breakpoints Definidos*
+- 0–480px: móviles pequeños
+- 481–768px: móviles grandes y tablets
+- 769–1024px: laptops
+- &gt;1024px: escritorio
+
+3. *Navegación Adaptativa*
+- Menú hamburguesa en móviles.
+- Menú horizontal en escritorio.
+
+4. *Reordenamiento de Bloques*
+- Cards, grillas y secciones deben adaptarse verticalmente.
+
+5. *Imágenes Escalables*
+- Uso de `max-width: 100%; height: auto;`.
+
+6. *Tipografía Flexible*
+- Escalado con unidades relativas (`rem`, `em`, `clamp()`).
+
+7. *Botones e Inputs Usables en Móvil*
+- Tamaño táctil mínimo 44px.
+- Espaciado suficiente entre elementos.
+
+8. *Formularios Responsivos*
+- Etiquetas claras y campos adaptados al tamaño del dispositivo.
+
+9. *Evitar Scroll Horizontal*
+- Layout siempre dentro del viewport.
+- Uso de contenedores flexibles.
