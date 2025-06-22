@@ -412,6 +412,61 @@ nav {
     gap: var(--spacing-xl);
 }
 
+/* Customer Segments Cards */
+.segments-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-lg);
+}
+
+.segment-card {
+    background-color: var(--light-color);
+    border-radius: var(--border-radius-md);
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    transition: transform var(--transition-speed) ease;
+}
+
+.segment-card:hover {
+    transform: translateY(-5px);
+}
+
+.segment-icon {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: var(--spacing-lg);
+    text-align: center;
+}
+
+.segment-icon i {
+    font-size: 2.5rem;
+}
+
+.segment-content {
+    padding: var(--spacing-lg);
+    flex-grow: 1;
+}
+
+.segment-features {
+    margin-top: var(--spacing-md);
+}
+
+.segment-features li {
+    margin-bottom: var(--spacing-xs);
+    position: relative;
+    padding-left: var(--spacing-lg);
+}
+
+.segment-features li::before {
+    content: "✓";
+    color: var(--secondary-color);
+    position: absolute;
+    left: 0;
+}
+
 .service-card {
     background-color: var(--light-color);
     border-radius: var(--border-radius-md);
@@ -681,9 +736,22 @@ nav {
     margin-bottom: var(--spacing-xs);
 }
 
+.stat-icon {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin-bottom: var(--spacing-xs);
+}
+
+.stat-icon i {
+    font-size: 2.5rem;
+}
+
 .stat-label {
-    font-size: 1.2rem;
-    color: var(--light-color);
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin-bottom: var(--spacing-xs);
 }
 
 /* ===== CONTACT PAGE ===== */
