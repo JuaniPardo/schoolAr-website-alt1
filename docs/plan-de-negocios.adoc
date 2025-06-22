@@ -1,0 +1,80 @@
+= SchoolAR - Plan de Negocios
+:toc:
+:toc-title: Tabla de Contenidos
+:icons: font
+
+== Propuesta de Valor
+
+SchoolAR es una plataforma de gestión educativa diseñada para optimizar la operación de las instituciones, ofreciéndoles control, eficiencia y una base sólida para la toma de decisiones estratégicas.
+
+Para los docentes, simplifica drásticamente la carga administrativa, devolviéndoles tiempo valioso para enfocarse en la enseñanza. A su vez, crea una experiencia de aprendizaje más organizada y motivadora para los alumnos, mientras brinda a las familias la tranquilidad de una comunicación fluida y un seguimiento transparente del progreso académico.
+
+En definitiva, SchoolAR centraliza, simplifica y conecta a todos los miembros de una institución educativa en un solo lugar.
+
+== Segmentos de Clientes
+
+SchoolAR está orientado a instituciones educativas de cualquier nivel, tanto públicas como privadas, que deseen digitalizar y agilizar su gestión académica y administrativa.
+
+Nuestro cliente principal son las instituciones académicas, y dentro de ellas, sus distintos miembros serán los usuarios de la plataforma:
+
+- Docentes
+- Alumnos
+- Padre/Madre/Tutor
+
+== Canales
+
+Nos daremos a conocer a través de nuestra página web, redes sociales y participando en ferias educativas. También contactaremos directamente a las instituciones para organizar reuniones y presentarles la plataforma en detalle.
+
+Una vez que una escuela se suma, el sistema se ofrece como un servicio online (SaaS), con acceso inmediato y sin instalaciones, simplemente a través de navegadores web y aplicaciones móviles.
+
+Nuestro compromiso continúa después de la compra, ofreciendo ayuda y soporte constante para resolver dudas y asegurarnos de que todas las instituciones puedan utilizar la herramienta sin problemas y de manera óptima.
+
+== Relación con los Clientes
+
+Nuestra relación con cada institución se basa en la colaboración y un acompañamiento cercano:
+
+- Capacitaciones personalizadas para directivos y docentes antes y durante la implementación
+- Soporte técnico continuo
+- Manual de usuario completo
+
+Fomentamos una alianza a largo plazo mediante una política de mejora continua, con actualizaciones periódicas que surgen de reuniones semestrales con nuestros clientes. Recolectamos ideas y necesidades y las transformamos en mejoras concretas para la evolución de SchoolAR.
+
+== Fuentes de Ingreso
+
+El modelo de ingresos de SchoolAR se basa principalmente en:
+
+- Suscripciones mensuales (también planes anuales o multianuales con descuento)
+- Precios ajustados al tamaño de la institución (cantidad de usuarios activos)
+- Programas piloto o periodos de prueba para contratos a largo plazo
+- Tarifa única por implementación y capacitación inicial
+- Módulos premium opcionales (ej: 'Métricas Avanzadas')
+
+_"Todo lo que es medible se puede mejorar."_
+
+== Recursos Clave
+
+- Aplicación (código fuente + infraestructura)
+- Equipo técnico: desarrolladores, diseñadores UI/UX, soporte, ventas, administración
+- Infraestructura tecnológica escalable (nube: AWS u otras)
+- Recursos financieros iniciales para cubrir costos operativos hasta alcanzar rentabilidad
+
+== Actividades Clave
+
+- Desarrollo y mantenimiento de la plataforma
+- Creación de nuevas funcionalidades
+- Control de calidad y monitoreo del rendimiento
+- Actividades comerciales: promoción, ventas, soporte al cliente
+- Análisis estratégico y toma de decisiones basadas en métricas de negocio
+
+== Alianzas/Socios Clave
+
+- Proveedores tecnológicos (cloud, dominios, herramientas)
+- Escuelas piloto para co-creación y validación
+- ONGs y organismos oficiales (Ministerios o Secretarías de Educación) para escalar la solución
+
+== Costos
+
+- Recursos humanos: salarios del equipo completo
+- Infraestructura tecnológica: servicios en la nube, dominios, licencias
+- Adquisición de clientes: marketing, publicidad, actividades comerciales
+- Operativos generales: administración, contabilidad, aspectos legales e impositivos

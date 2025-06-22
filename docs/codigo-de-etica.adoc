@@ -1,0 +1,98 @@
+= SchoolAR - Código de Ética
+:toc:
+:toc-title: Tabla de Contenidos
+:icons: font
+
+== Nuestro equipo
+
+- *Lucas Caraballo* - Desarrollador de Software en Mercado Libre
+- *Tadeo Fattore* - Specialist Project Manager Latam E-Commerce (PUMA)
+- *Juan Ignacio Pardo* - Principal Piping Designer en Worley
+- *Juan Ignacio Oses* - Developer
+- *Matías Contreras* - Developer
+
+== Nuestro objetivo
+
+SchoolAR es un sistema de gestión para instituciones educativas que busca centralizar y automatizar procesos administrativos y académicos. Su objetivo es integrar funcionalidades como la gestión de usuarios, cursos, tareas, asistencias y legajos, mejorando la eficiencia y la accesibilidad de la información.
+
+== Alcance y Límite
+
+Ofrecemos una plataforma integral de gestión que automatiza los procesos administrativos y académicos clave en instituciones educativas:
+
+- Administración de usuarios y roles
+- Gestión de cursos y tareas (incluyendo publicación de materiales, entregas y calificaciones)
+- Registro y reporte de asistencias
+- Gestión de legajos digitales
+- Comunicación institucional mediante notificaciones automatizadas
+- Mensajes motivacionales para estudiantes
+
+*Limitación:* No incluye funcionalidades avanzadas de gestión financiera externa ni integración con sistemas bancarios o de pago más allá de lo necesario para la operatividad interna.
+
+== Nuestra Misión, Visión y Valores
+
+=== Misión
+“Mejorar la experiencia educativa a través de una gestión eficiente, facilitando la labor docente y elevando los logros estudiantiles".
+
+=== Visión
+"Extender y mejorar la gestión educativa en Argentina, siendo la herramienta clave para que cada institución potencie el desarrollo de sus estudiantes y promueva un futuro más prometedor".
+
+=== Valores
+
+- *Honestidad y Transparencia:* Actuamos con integridad, siendo claros sobre nuestras capacidades y el manejo de la información.
+- *Respeto y Diversidad:* Fomentamos la inclusión, la pluralidad y el trato equitativo.
+- *Tolerancia Cero al Bullying:* Rechazamos todo tipo de acoso, con medidas activas de prevención y respuesta.
+- *Lealtad a Nuestra Misión y Visión:* Nos guiamos por nuestro propósito social y educativo.
+- *Lealtad a SchoolAR:* Compromiso de cada miembro con el crecimiento y estabilidad del proyecto.
+- *Compromiso con la Calidad:* Buscamos la excelencia en desarrollo y atención al cliente.
+
+== Nuestros Principios
+
+1. *Respetamos tanto dentro como por fuera de la plataforma*
+- Promovemos la cortesía, empatía y un ambiente digital positivo.
+
+2. *Trabajo en Equipo*
+- Valoramos la colaboración, compartimos ideas y construimos colectivamente.
+
+3. *Estamos en Mejora Continua*
+- Nos nutrimos de la retroalimentación para actualizar y optimizar constantemente.
+
+4. *Prohibición de Contenido Sensible*
+- No se permite contenido pornográfico, violento, discriminatorio o ilegal.
+- El contenido que infrinja esta norma será eliminado y el usuario sancionado.
+
+5. *Integridad Académica*
+- Promovemos la honestidad, originalidad y buenas prácticas en educación.
+
+6. *Equidad e Inclusión Digital*
+- Trabajamos para que la plataforma sea accesible y reduzca brechas tecnológicas.
+
+7. *Transparencia*
+- Mantenemos canales de comunicación claros y abiertos para todos los usuarios.
+
+== Importancia de Cumplir el Código y Consecuencias
+
+El incumplimiento del Código de Ética podrá implicar:
+
+- Advertencias formales
+- Restricción o suspensión temporal de funcionalidades
+- Eliminación de contenido infractor
+- Suspensión o cancelación definitiva de la cuenta
+- Reporte a la institución educativa correspondiente
+- Acciones legales ante conductas ilícitas
+
+== Canales para Reportar Incumplimientos
+
+1. *Formulario de Reporte Online*
+Disponible en la sección "Ayuda" de la plataforma.
+
+2. *Correo Electrónico Exclusivo*
+soporte@schoolar.com.ar
+
+3. *Contacto Telefónico Directo*
+0800-123-1234 (línea de atención urgente)
+
+Nos comprometemos a:
+
+- Investigar cada denuncia de manera confidencial y justa.
+- Garantizar el anonimato del denunciante.
+- Tomar las medidas necesarias para preservar un entorno seguro.
