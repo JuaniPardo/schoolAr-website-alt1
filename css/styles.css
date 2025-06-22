@@ -1145,3 +1145,13 @@ footer {
 .dark-mode-toggle i {
     font-size: 1.5rem;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.logo img {
+    display: block;
+}
