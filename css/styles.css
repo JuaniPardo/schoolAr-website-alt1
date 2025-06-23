@@ -1568,3 +1568,7 @@ footer {
 .logo img {
     display: block;
 }
+
+.limitation {
+    margin-top: 1.2rem;
+}
