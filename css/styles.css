@@ -1103,87 +1103,427 @@ footer {
     }
 }
 
-/* ===== DARK MODE (OPTIONAL) ===== */
+/* ===== DARK MODE ===== */
 .dark-mode {
-    --background-color: #121212;
-    --text-color: #e0e0e0;
-    --light-color: #1e1e1e;
-    --gray-color: #2d2d2d;
-    --border-color: #444;
-    --primary-color: #4A8FE7; /* Lighter blue for better contrast in dark mode */
+    /* Main colors */
+    --background-color: #1a1a2e; /* Dark blue-black background */
+    --text-color: #e6e6e6; /* Light gray text for good contrast */
+    --light-color: #242447; /* Slightly lighter than background for cards */
+    --gray-color: #30305a; /* Medium dark blue-purple for secondary backgrounds */
+    --border-color: #4a4a8c; /* Subtle borders */
+
+    /* Brand colors - keeping consistent with the original scheme but adjusting for dark mode */
+    --primary-color: #1e50a2; /* Slightly darker blue that works well in dark mode */
+    --secondary-color: #FCA311; /* Keeping the original yellow/orange for accent */
+
+    /* Additional dark mode specific colors */
+    --dark-surface: #242447; /* For card backgrounds */
+    --dark-elevated: #30305a; /* For elevated elements */
+    --dark-accent: #4a4a8c; /* For subtle highlights */
+    --dark-text-primary: #ffffff; /* For headings and important text */
+    --dark-text-secondary: #b8b8d4; /* For less important text */
 }
 
-.dark-mode header,
-.dark-mode .feature-card,
-.dark-mode .mission-box,
-.dark-mode .vision-box,
-.dark-mode .values-box,
-.dark-mode .objective-card,
-.dark-mode .team-member,
-.dark-mode .service-card,
-.dark-mode .pricing-card,
-.dark-mode .testimonial-card,
-.dark-mode .video-card,
-.dark-mode .contact-details,
-.dark-mode .contact-form-container,
-.dark-mode .faq-item {
-    background-color: #1e1e1e;
-    color: #e0e0e0;
+/* Base elements */
+.dark-mode body {
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
-.dark-mode h1,
-.dark-mode h2,
-.dark-mode h3,
-.dark-mode h4,
-.dark-mode h5,
+/* Typography */
+.dark-mode h1, 
+.dark-mode h2, 
+.dark-mode h3, 
+.dark-mode h4, 
+.dark-mode h5, 
 .dark-mode h6 {
-    color: #ffffff; /* Brighter white for better contrast */
+    color: var(--dark-text-primary);
 }
 
-/* Ensure links have good contrast in dark mode */
+.dark-mode p {
+    color: var(--text-color);
+}
+
+/* Links */
 .dark-mode a {
-    color: var(--primary-color); /* Using the lighter blue we defined for dark mode */
-}
-
-.dark-mode a:hover {
     color: var(--secondary-color);
 }
 
-.dark-mode .pricing-header,
+.dark-mode a:hover {
+    color: #fdb44d; /* Lighter version of secondary color */
+}
+
+/* Header & Navigation */
+.dark-mode header {
+    background-color: var(--dark-surface);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .nav-menu a {
+    color: var(--text-color);
+}
+
+.dark-mode .nav-menu a.active,
+.dark-mode .nav-menu a:hover {
+    color: var(--secondary-color);
+}
+
+.dark-mode .menu-toggle {
+    color: var(--text-color);
+}
+
+/* Buttons */
+.dark-mode .btn {
+    border: none;
+}
+
+.dark-mode .cta-btn {
+    background-color: var(--secondary-color);
+    color: #1a1a2e; /* Dark background color for contrast */
+}
+
+.dark-mode .cta-btn:hover {
+    background-color: #fdb44d; /* Lighter version of secondary color */
+    color: #1a1a2e;
+}
+
+.dark-mode .secondary-btn {
+    background-color: var(--primary-color);
+    color: var(--dark-text-primary);
+}
+
+.dark-mode .secondary-btn:hover {
+    background-color: #2a62c4; /* Lighter version of primary color */
+    color: var(--dark-text-primary);
+}
+
+/* Hero Section */
+.dark-mode .hero {
+    background-color: var(--primary-color);
+}
+
+.dark-mode .hero-content h2,
+.dark-mode .hero-content p {
+    color: var(--dark-text-primary);
+}
+
+/* Features Section */
+.dark-mode .features {
+    background-color: var(--background-color);
+}
+
+.dark-mode .feature-card {
+    background-color: var(--dark-surface);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .feature-card i {
+    color: var(--secondary-color);
+}
+
+.dark-mode .feature-card h3 {
+    color: var(--dark-text-primary);
+}
+
+/* Location Section */
+.dark-mode .location {
+    background-color: var(--dark-elevated);
+}
+
+/* CTA Section */
+.dark-mode .cta-section {
+    background-color: var(--primary-color);
+}
+
+.dark-mode .cta-section h2,
+.dark-mode .cta-section p {
+    color: var(--dark-text-primary);
+}
+
+/* About Page */
+.dark-mode .page-header {
+    background-color: var(--primary-color);
+}
+
+.dark-mode .about-story {
+    background-color: var(--background-color);
+}
+
+.dark-mode .mission-vision {
+    background-color: var(--dark-elevated);
+}
+
+.dark-mode .mission-box,
+.dark-mode .vision-box,
+.dark-mode .values-box {
+    background-color: var(--dark-surface);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .mission-box i,
+.dark-mode .vision-box i,
+.dark-mode .values-box i {
+    color: var(--secondary-color);
+}
+
+.dark-mode .objective-card {
+    background-color: var(--dark-surface);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .objective-card i {
+    color: var(--secondary-color);
+}
+
+.dark-mode .team-member {
+    background-color: var(--dark-surface);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .team-member p {
+    color: var(--dark-text-secondary);
+}
+
+/* Services Page */
+.dark-mode .services-intro {
+    background-color: var(--background-color);
+}
+
+.dark-mode .customer-segments {
+    background-color: var(--background-color);
+}
+
+.dark-mode .segment-card {
+    background-color: var(--dark-surface);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .segment-icon {
+    background-color: var(--primary-color);
+    color: var(--dark-text-primary);
+}
+
+.dark-mode .segment-features li::before {
+    color: var(--secondary-color);
+}
+
+.dark-mode .service-card {
+    background-color: var(--dark-surface);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
 .dark-mode .service-icon {
-    background-color: #2a5ca8; /* Lighter blue background for better contrast */
+    background-color: var(--primary-color);
+    color: var(--dark-text-primary);
+}
+
+.dark-mode .service-features li::before {
+    color: var(--secondary-color);
+}
+
+.dark-mode .pricing-card {
+    background-color: var(--dark-surface);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .pricing-card.featured {
+    border-color: var(--secondary-color);
+}
+
+.dark-mode .pricing-header {
+    background-color: var(--primary-color);
+    color: var(--dark-text-primary);
+}
+
+.dark-mode .pricing-header h3 {
+    color: var(--dark-text-primary);
+}
+
+.dark-mode .price {
+    color: var(--secondary-color);
+}
+
+.dark-mode .pricing-features .fa-check {
+    color: #4caf50; /* Green */
+}
+
+.dark-mode .pricing-features .fa-times {
+    color: #f44336; /* Red */
+}
+
+.dark-mode .pricing-note {
+    color: var(--dark-text-secondary);
+}
+
+/* Testimonials Page */
+.dark-mode .testimonials-intro {
+    background-color: var(--background-color);
+}
+
+.dark-mode .testimonial-card {
+    background-color: var(--dark-surface);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .testimonial-content {
+    color: var(--text-color);
+}
+
+.dark-mode .testimonial-content::after {
+    border-color: var(--dark-surface) transparent;
+}
+
+.dark-mode .testimonial-rating {
+    color: var(--secondary-color);
 }
 
 .dark-mode .testimonial-author {
-    background-color: #2d2d2d;
+    background-color: var(--dark-elevated);
 }
 
-/* Improve contrast for stats section in dark mode */
+.dark-mode .author-info h3 {
+    color: var(--dark-text-primary);
+}
+
+.dark-mode .institution {
+    color: var(--dark-text-secondary);
+}
+
+.dark-mode .video-card {
+    background-color: var(--dark-surface);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .play-button {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 .dark-mode .stats {
-    background-color: #2a5ca8; /* Lighter blue background for better contrast */
+    background-color: var(--primary-color);
 }
 
+.dark-mode .stats h2 {
+    color: var(--dark-text-primary);
+}
+
+.dark-mode .stat-card {
+    color: var(--dark-text-primary);
+}
+
+.dark-mode .stat-number,
+.dark-mode .stat-icon,
 .dark-mode .stat-label {
-    color: #ffffff; /* Ensure stat labels are clearly visible */
+    color: var(--secondary-color);
+}
+
+.dark-mode .stat-description {
+    color: var(--dark-text-primary);
+}
+
+/* Contact Page */
+.dark-mode .contact-details {
+    background-color: var(--dark-surface);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .contact-item i {
+    color: var(--secondary-color);
+}
+
+.dark-mode .social-icon {
+    background-color: var(--primary-color);
+    color: var(--dark-text-primary);
+}
+
+.dark-mode .social-icon:hover {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+}
+
+.dark-mode .contact-form-container {
+    background-color: var(--dark-surface);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .form-group label {
+    color: var(--text-color);
 }
 
 .dark-mode .form-group input,
 .dark-mode .form-group select,
 .dark-mode .form-group textarea {
-    background-color: #2d2d2d;
-    border-color: #444;
-    color: #ffffff; /* Brighter text for better contrast */
+    background-color: var(--dark-elevated);
+    border-color: var(--dark-accent);
+    color: var(--text-color);
 }
 
-/* Ensure footer links have good contrast */
+.dark-mode .form-group input:focus,
+.dark-mode .form-group select:focus,
+.dark-mode .form-group textarea:focus {
+    border-color: var(--secondary-color);
+    outline: none;
+}
+
+.dark-mode .checkbox-group label {
+    color: var(--text-color);
+}
+
+.dark-mode .form-note {
+    color: var(--dark-text-secondary);
+}
+
+.dark-mode .faq-item {
+    background-color: var(--dark-surface);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .faq-item h3 {
+    color: var(--dark-text-primary);
+}
+
+/* Footer */
+.dark-mode footer {
+    background-color: var(--dark-surface);
+    color: var(--text-color);
+}
+
+.dark-mode .footer-logo h2 {
+    color: var(--dark-text-primary);
+}
+
+.dark-mode .footer-links h3,
+.dark-mode .footer-contact h3 {
+    color: var(--dark-text-primary);
+}
+
 .dark-mode .footer-links a {
-    color: #ffffff; /* Brighter color for better visibility */
+    color: var(--text-color);
     opacity: 0.9;
 }
 
 .dark-mode .footer-links a:hover {
     opacity: 1;
     color: var(--secondary-color);
+}
+
+.dark-mode .footer-contact i {
+    color: var(--secondary-color);
+}
+
+.dark-mode .social-links a {
+    color: var(--text-color);
+}
+
+.dark-mode .social-links a:hover {
+    color: var(--secondary-color);
+}
+
+.dark-mode .footer-bottom {
+    border-top-color: var(--dark-accent);
+}
+
+.dark-mode .footer-bottom p {
+    color: var(--dark-text-secondary);
 }
 
 /* Toggle Switch for Dark Mode */
@@ -1202,12 +1542,17 @@ footer {
     align-items: center;
     cursor: pointer;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: all var(--transition-speed) ease;
 }
 
 /* Ensure dark mode toggle is visible in dark mode */
 .dark-mode .dark-mode-toggle {
     background-color: var(--secondary-color);
     color: var(--background-color);
+}
+
+.dark-mode-toggle:hover {
+    transform: scale(1.1);
 }
 
 .dark-mode-toggle i {
