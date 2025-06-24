@@ -43,7 +43,7 @@
                     <div class="contact-details">
                         <h2>Información de Contacto</h2>
                         <p>Ponte en contacto con nosotros para obtener más información sobre SchoolAR o para solicitar una demostración personalizada.</p>
-                        
+
                         <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
                             <div>
@@ -51,7 +51,7 @@
                                 <p>Av. Corrientes 1234, Piso 5<br>Ciudad Autónoma de Buenos Aires<br>Argentina</p>
                             </div>
                         </div>
-                        
+
                         <div class="contact-item">
                             <i class="fas fa-phone"></i>
                             <div>
@@ -60,7 +60,7 @@
                                 <p>Lunes a Viernes: 9:00 - 18:00</p>
                             </div>
                         </div>
-                        
+
                         <div class="contact-item">
                             <i class="fas fa-envelope"></i>
                             <div>
@@ -69,7 +69,7 @@
                                 <p>soporte@schoolar.com</p>
                             </div>
                         </div>
-                        
+
                         <div class="social-contact">
                             <h3>Redes Sociales</h3>
                             <div class="social-icons">
@@ -80,30 +80,33 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="contact-form-container">
                         <h2>Envíanos un Mensaje</h2>
                         <form class="contact-form" id="contactForm">
+                            <!-- Hidden input for EmailJS template parameters -->
+                            <input type="hidden" name="contact_number">
+
                             <div class="form-group">
                                 <label for="name">Nombre completo *</label>
                                 <input type="text" id="name" name="name" required>
                             </div>
-                            
+
                             <div class="form-group">
                                 <label for="email">Email *</label>
                                 <input type="email" id="email" name="email" required>
                             </div>
-                            
+
                             <div class="form-group">
                                 <label for="school">Institución educativa</label>
                                 <input type="text" id="school" name="school">
                             </div>
-                            
+
                             <div class="form-group">
                                 <label for="phone">Teléfono</label>
                                 <input type="tel" id="phone" name="phone">
                             </div>
-                            
+
                             <div class="form-group full-width">
                                 <label for="subject">Asunto *</label>
                                 <select id="subject" name="subject" required>
@@ -114,23 +117,23 @@
                                     <option value="other">Otro</option>
                                 </select>
                             </div>
-                            
+
                             <div class="form-group full-width">
                                 <label for="message">Mensaje *</label>
                                 <textarea id="message" name="message" rows="5" required></textarea>
                             </div>
-                            
+
                             <div class="form-group full-width">
                                 <div class="checkbox-group">
                                     <input type="checkbox" id="privacy" name="privacy" required>
                                     <label for="privacy">Acepto la <a href="#">política de privacidad</a> *</label>
                                 </div>
                             </div>
-                            
+
                             <div class="form-submit">
                                 <button type="submit" class="btn cta-btn">Enviar mensaje</button>
                             </div>
-                            
+
                             <p class="form-note">* Campos obligatorios</p>
                         </form>
                     </div>
@@ -209,6 +212,20 @@
         </div>
     </footer>
 
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // Initialize EmailJS with your user ID
+            // IMPORTANTE: Reemplaza "YOUR_USER_ID" con tu ID de usuario de EmailJS
+            // Para obtener tu ID de usuario:
+            // 1. Regístrate en https://www.emailjs.com/
+            // 2. Crea un servicio de email (Gmail, Outlook, etc.)
+            // 3. Crea una plantilla de email usando el contenido de automated-response.html
+            // 4. Obtén tu ID de usuario desde la sección de integración
+            emailjs.init("8q9OSeoje-79Cey5s");
+        })();
+    </script>
     <script src="js/script.js"></script>
 </body>
 </html>
