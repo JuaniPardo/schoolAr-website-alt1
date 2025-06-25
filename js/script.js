@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // IMPORTANTE: Reemplaza 'service_id' y 'template_id' con tus IDs de EmailJS
                 // - service_id: El ID de tu servicio de email en EmailJS (ej. 'gmail')
                 // - template_id: El ID de tu plantilla de email en EmailJS
-                emailjs.sendForm('service_83yiw7g', 'template_yorp9wa', contactForm)
+                emailjs.sendForm('service_83yiw7g', 'template_6rn394h', contactForm)
                     .then(function(response) {
                         console.log('SUCCESS!', response.status, response.text);
                         showFormSuccess();
